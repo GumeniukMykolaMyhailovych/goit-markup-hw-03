@@ -182,6 +182,7 @@ border-bottom: 1px solid #e7e9fc;
 
 .footer-logo .logo-part {
     color: #f4f4fd;
+    padding: 100px 0;
 }
 
 .our-team {
@@ -255,6 +256,7 @@ border-bottom: 1px solid #e7e9fc;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 .nav-link:hover,
@@ -334,6 +336,7 @@ border-bottom: 1px solid #e7e9fc;
 
 .portfolio-section {
     padding-top: 120px;
+    padding-bottom: 120px;
 
 }
 
@@ -344,7 +347,7 @@ border-bottom: 1px solid #e7e9fc;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-ul-li {
@@ -355,4 +358,9 @@ border-bottom: 1px solid #e7e9fc;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16;
 }
